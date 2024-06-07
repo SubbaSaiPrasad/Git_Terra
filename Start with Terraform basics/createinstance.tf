@@ -1,9 +1,11 @@
-provider "aws" {
-  access_key = "AKIAUGNPXWLPDVK34EK4"
-  secret_key = "SECRET KEY"
-  region = "us-east-2"
+provider aws{
+    access_key = "AKIAUGNPXWLPA7P6QSUN"
+    secret_key = "Secret Key"
+    region = "us-east-2"
 }
-resource "aws_instance" "MyFirstInstnace" {
-  ami           = "	ami-05803413c51f242b7"
-  instance_type = "t2.micro"
+
+resource "aws_instance" "my_ec2_instance" {
+    ami = "ami-05803413c51f242b7"
+    Instancetype = "t2.micro"
+  
 }
