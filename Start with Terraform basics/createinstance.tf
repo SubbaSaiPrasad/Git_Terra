@@ -1,6 +1,6 @@
 provider aws{
     access_key = "AKIAUGNPXWLPA7P6QSUN"
-    secret_key = "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"
+    secret_key = "SECRET_KEY"
     region = "us-east-2"
 }
 resource "aws_instance" "my_ec2_instance" {
